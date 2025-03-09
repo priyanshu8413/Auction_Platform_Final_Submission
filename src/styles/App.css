@@ -1,0 +1,54 @@
+/* ✅ Removed Background Image */
+body {
+    background: url('https://i.imgur.com/2LfMKBd.jpeg') no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+
+
+/* ✅ Navbar */
+.navbar {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    background-color: #007bff; /* Blue background */
+    padding: 20px;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    font-weight: bold;
+    color: hwb(0 0% 100%);
+    margin-bottom: 10px; /* Space between logo and nav items */
+}
+
+.nav-links {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-link {
+    background: rgb(19, 18, 18);
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+/* ✅ Hero Section */
+.overlay {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 50px;
+    border-radius: 10px;
+}
+
+/* ✅ Footer */
+.footer {
+    background: hsl(0, 3%, 8%);
+    color: white;
+    text-align: center;
+    padding: 200px;
+    margin-top: auto;
+}
